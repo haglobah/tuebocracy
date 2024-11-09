@@ -1,8 +1,8 @@
 {
   "scripts": {
-    "watch:pollen": "racket watch-pollen.rkt",
+    "watch:pollen": "raco pollen reset && raco pollen start",
     "watch:css": "unocss --watch",
-    "dev": "concurrently \"raco pollen start\" \"npm run watch:css\""
+    "dev": "concurrently \"npm run watch:pollen\" \"npm run watch:css\""
   },
   "dependencies": {
     "concurrently": "^9.0.1",
