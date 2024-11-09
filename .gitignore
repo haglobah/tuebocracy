@@ -1,0 +1,8 @@
+.direnv
+.pre-commit-config.yaml
+
+compiled
+*.html
+
+node_modules/
+.vscode/
