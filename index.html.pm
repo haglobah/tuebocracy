@@ -1,37 +1,35 @@
 #lang pollen
 
-◊`(div ([class ,"flex bg-prussian"])
-  (div ([class ,"flex flex-col justify-between mx-auto min-h-screen max-w-screen-xl px-4 pt-12 md:px-8 md:pt-20 lg:px-16 text-zinc-300"])
-    (div ([class "my-6"])
-      (h1 ([class ,"my-4 text-4xl text-engineering-light font-mono tracking-tighter leading-snug text-center"])
-        "Coding is hard —")
-      (p ([class "my-2 sm:text-lg leading-relaxed text-center"])
-        "Many tools and languages make it easy to add accidental complexity.")
-      (p ([class "my-2 sm:text-lg leading-relaxed text-center"])
-        "Accidental complexity creates unnecessary cognitive load.")
-      (p ([class "my-2 sm:text-lg leading-relaxed text-center"])
-        "If we constantly battle cognitive load, we get exhausted, unhappy and frustrated.")
-    )
-    (div ([class "my-6"])
-      (h1 ([class ,"my-4 text-4xl text-engineering-light font-mono tracking-tighter leading-snug text-center"])
-        "but does it have to be " (span ([class "italic"]) "that") " hard?")
-      (p ([class "my-2 sm:text-lg leading-relaxed text-center"])
-        "There are tools and techniques that manage complexity well.")
-      (p ([class "my-2 sm:text-lg leading-relaxed text-center"])
-        "Using those tools and techniques " (span ([class "italic"]) "reduces") " cognitive load.")
-      (p ([class "my-2 sm:text-lg leading-relaxed text-center"])
-        "So that you can be energetic, happy and joyful while coding.")
-    )
-    (div ([class "mx-auto"])
-      (a ([href "#meetup"]
-          [class ,"mb-4 flex flex-col gap-2 items-center hover:text-engineering-light focus-visible:text-engineering-light duration-300"])
-        (span ([class "text-xl text-engineering-light font-mono tracking-tighter leading-snug"])"Interested?")
-        (svg ([xmlns "http://www.w3.org/2000/svg"] [fill "none"] [viewBox "0 0 24 24"] [stroke-width "1"] [stroke "currentColor"] [class "size-16"])
-          (path ([stroke-linecap "round"] [stroke-linejoin "round"] [d "m19.5 8.25-7.5 7.5-7.5-7.5"]))))
-    )
-  )
-)
+◊div[#:class "flex bg-prussian"]{
+  ◊div[#:class "flex flex-col justify-between mx-auto min-h-screen max-w-screen-xl px-4 pt-12 md:px-8 md:pt-20 lg:px-16 text-zinc-300"]{
+    ◊div[#:class "my-6"]{
+      ◊h1[#:class "my-4 text-4xl text-engineering-light font-mono tracking-tighter leading-snug text-center"]{Politik nervt —}
+      ◊p[#:class "my-2 sm:text-lg leading-relaxed text-center"]{Many tools and languages make it easy to add accidental complexity.}
+      ◊p[#:class "my-2 sm:text-lg leading-relaxed text-center"]{Accidental complexity creates unnecessary cognitive load.}
+      ◊p[#:class "my-2 sm:text-lg leading-relaxed text-center"]{If we constantly battle cognitive load, we get exhausted, unhappy and frustrated.}
+    }
 
+    ◊div[#:class "my-6"]{
+      ◊h1[#:class "my-4 text-4xl text-engineering-light font-mono tracking-tighter leading-snug text-center"]{
+        aber ◊span[#:class "italic"]{muss} das so sein?
+      }
+      ◊p[#:class "my-2 sm:text-lg leading-relaxed text-center"]{There are tools and techniques that manage complexity well.}
+      ◊p[#:class "my-2 sm:text-lg leading-relaxed text-center"]{
+        Using those tools and techniques ◊span[#:class "italic"]{reduces} cognitive load.
+      }
+      ◊p[#:class "my-2 sm:text-lg leading-relaxed text-center"]{So that you can be energetic, happy and joyful while coding.}
+    }
+
+    ◊div[#:class "mx-auto"]{
+      ◊a[#:href "#meetup" #:class "mb-4 flex flex-col gap-2 items-center hover:text-engineering-light focus-visible:text-engineering-light duration-300"]{
+        ◊span[#:class "text-xl text-engineering-light font-mono tracking-tighter leading-snug"]{Interested?}
+        ◊svg[#:xmlns "http://www.w3.org/2000/svg" #:fill "none" #:viewBox "0 0 24 24" #:stroke-width "1" #:stroke "currentColor" #:class "size-16"]{
+          ◊path[#:stroke-linecap "round" #:stroke-linejoin "round" #:d "m19.5 8.25-7.5 7.5-7.5-7.5"]
+        }
+      }
+    }
+  }
+}
 ◊div[#:class "bg-white"]{
   ◊div[#:id "meetup" #:class "min-h-[94vh] text-zinc-700 mx-auto h-full max-w-screen-md px-6 pt-12 md:px-12 md:pt-20 lg:px-24"]{
     ◊heading["About"]
