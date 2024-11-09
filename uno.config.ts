@@ -16,8 +16,8 @@ export default defineConfig({
   shortcuts: [],
   theme: {
     colors: {
-      'prussian': '#273043',
-      'engineering': {
+      prussian: '#273043',
+      engineering: {
         light: '#DA5451',
         DEFAULT: '#BB1512',
       },

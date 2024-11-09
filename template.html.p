@@ -41,7 +41,7 @@
 		◊(->html `(div ([class ""])
 									,doc))
 		<footer class="p-6 sm:p-8 md:p-12">
-			<div class="flex flex-col justify-center items-center text-sm text-zinc-400">
+			<div class="flex flex-col justify-center items-center gap-2 text-sm text-zinc-400">
 				<div class="flex flex-wrap gap-x-2 justify-center">
 					<p class="whitespace-nowrap">
 						Von Tübinger:innen für Tübinger:innen

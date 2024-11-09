@@ -7,7 +7,7 @@
 (provide (all-defined-out))
 
 (define (link url . body)
-  `(a ([class ,"text-[@{jordy}] hover:underline decoration-2 underline-offset-2 decoration-[@{jordy}] hover:text-[@{jordy}]"] [rel "noreferrer noopener"] [target "_blank"] [href ,url])
+  `(a ([class ,"text-engineering hover:underline decoration-2 underline-offset-2 decoration-engineering hover:text-engineering"] [rel "noreferrer noopener"] [target "_blank"] [href ,url])
     ,@body))
 
 (define (par . body)
@@ -17,7 +17,7 @@
   (string-replace (string-downcase text) " " "-"))
 
 (define (heading text)
-  `(h1 ([id ,(id-ify text)] [class ,"text-3xl font-fira-code text-[@{jordy}] tracking-tighter leading-snug"])
+  `(h1 ([id ,(id-ify text)] [class ,"text-3xl font-mono text-engineering tracking-tighter leading-snug"])
        ,text))
 
 (define (orga . body)
@@ -31,7 +31,7 @@
         (div ([class "abstract-content line-clamp-[8] transition-all duration-300 ease-in-out mb-2"])
              ,@body)
         (div ([class "fade-overlay absolute bottom-6 left-0 w-full h-12 pointer-events-none bg-gradient-to-t from-white"]))
-        (button ([class ,"toggle-button inset-x-0 bottom-0 inline-flex justify-center items-center gap-2 self-center bg-white text-[@{jordy}]/80 hover:text-[@{jordy}] transition-all duration-200 hidden"])
+        (button ([class ,"toggle-button inset-x-0 bottom-0 inline-flex justify-center items-center gap-2 self-center bg-white text-engineering/80 hover:text-engineering transition-all duration-200 hidden"])
               (span ([class "button-text"]) "Show more")
         )))
 
