@@ -7,7 +7,7 @@
 (provide (all-defined-out))
 
 (define (link url . body)
-  `(a ([class ,"text-engineering hover:underline decoration-2 underline-offset-2 decoration-engineering hover:text-engineering"] [rel "noreferrer noopener"] [target "_blank"] [href ,url])
+  `(a ([class "text-engineering hover:underline hover:decoration-2 hover:underline-offset-2 hover:decoration-engineering transition duration-300"] [rel "noreferrer noopener"] [target "_blank"] [href ,url])
     ,@body))
 
 (define (par . body)

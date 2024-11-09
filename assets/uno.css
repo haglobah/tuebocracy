@@ -214,6 +214,7 @@
 .mb-2{margin-bottom:0.5rem;}
 .mb-4{margin-bottom:1rem;}
 .mt-2{margin-top:0.5rem;}
+.mt-4{margin-top:1rem;}
 .size-10{width:2.5rem;height:2.5rem;}
 .size-16{width:4rem;height:4rem;}
 .h-auto{height:auto;}
@@ -235,6 +236,8 @@
 .hover\:cursor-pointer:hover{cursor:pointer;}
 .snap-x{scroll-snap-type:x var(--un-scroll-snap-strictness);}
 .snap-center{scroll-snap-align:center;}
+.list-disc{list-style-type:disc;}
+.list-inside{list-style-position:inside;}
 .items-center{align-items:center;}
 .justify-center{justify-content:center;}
 .justify-between{justify-content:space-between;}
@@ -253,18 +256,19 @@
 .bg-white{--un-bg-opacity:1;background-color:rgb(255 255 255 / var(--un-bg-opacity)) /* #fff */;}
 .bg-white\/0{background-color:rgb(255 255 255 / 0) /* #fff */;}
 .selection\:bg-engineering-light ::selection{--un-bg-opacity:1;background-color:rgb(218 84 81 / var(--un-bg-opacity)) /* #DA5451 */;}
+.p-2{padding:0.5rem;}
 .p-6{padding:1.5rem;}
 .px-4{padding-left:1rem;padding-right:1rem;}
 .px-6{padding-left:1.5rem;padding-right:1.5rem;}
+.px-auto{padding-left:auto;padding-right:auto;}
 .py-4{padding-top:1rem;padding-bottom:1rem;}
 .pb-6{padding-bottom:1.5rem;}
 .pt-12{padding-top:3rem;}
-.text-center{text-align:center;}
+.text-2xl{font-size:1.5rem;line-height:2rem;}
 .text-3xl{font-size:1.875rem;line-height:2.25rem;}
 .text-4xl{font-size:2.25rem;line-height:2.5rem;}
 .text-base{font-size:1rem;line-height:1.5rem;}
 .text-sm{font-size:0.875rem;line-height:1.25rem;}
-.text-xl{font-size:1.25rem;line-height:1.75rem;}
 .text-engineering{--un-text-opacity:1;color:rgb(187 21 18 / var(--un-text-opacity)) /* #BB1512 */;}
 .text-engineering-light{--un-text-opacity:1;color:rgb(218 84 81 / var(--un-text-opacity)) /* #DA5451 */;}
 .text-zinc-300{--un-text-opacity:1;color:rgb(212 212 216 / var(--un-text-opacity)) /* #d4d4d8 */;}
@@ -284,9 +288,9 @@
 .font-sans{font-family:"Maven Pro",ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";}
 .italic{font-style:italic;}
 .hover\:underline:hover{text-decoration-line:underline;}
-.decoration-2{text-decoration-thickness:2px;}
-.decoration-engineering{-webkit-text-decoration-color:rgb(187 21 18 / var(--un-line-opacity)) /* #BB1512 */;--un-line-opacity:1;text-decoration-color:rgb(187 21 18 / var(--un-line-opacity)) /* #BB1512 */;}
-.underline-offset-2{text-underline-offset:2px;}
+.hover\:decoration-2:hover{text-decoration-thickness:2px;}
+.hover\:decoration-engineering:hover{-webkit-text-decoration-color:rgb(187 21 18 / var(--un-line-opacity)) /* #BB1512 */;--un-line-opacity:1;text-decoration-color:rgb(187 21 18 / var(--un-line-opacity)) /* #BB1512 */;}
+.hover\:underline-offset-2:hover{text-underline-offset:2px;}
 .antialiased{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;}
 .shadow-lg{--un-shadow:var(--un-shadow-inset) 0 10px 15px -3px var(--un-shadow-color, rgb(0 0 0 / 0.1)),var(--un-shadow-inset) 0 4px 6px -4px var(--un-shadow-color, rgb(0 0 0 / 0.1));box-shadow:var(--un-ring-offset-shadow), var(--un-ring-shadow), var(--un-shadow);}
 .transition{transition-property:color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms;}
@@ -297,6 +301,7 @@
 .ease-out{transition-timing-function:cubic-bezier(0, 0, 0.2, 1);}
 @media (min-width: 640px){
 .sm\:mx-16{margin-left:4rem;margin-right:4rem;}
+.sm\:mx-4{margin-left:1rem;margin-right:1rem;}
 .sm\:-ml-2{margin-left:-0.5rem;}
 .sm\:-mr-2{margin-right:-0.5rem;}
 .sm\:scroll-smooth{scroll-behavior:smooth;}
@@ -306,6 +311,7 @@
 @media (min-width: 768px){
 .md\:-mx-12{margin-left:-3rem;margin-right:-3rem;}
 .md\:mx-8{margin-left:2rem;margin-right:2rem;}
+.md\:mx-auto{margin-left:auto;margin-right:auto;}
 .md\:ml-0{margin-left:0;}
 .md\:mr-0{margin-right:0;}
 .md\:gap-4{gap:1rem;}
