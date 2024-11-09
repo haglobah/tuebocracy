@@ -5,6 +5,7 @@
     "dev": "concurrently \"npm run watch:pollen\" \"npm run watch:css\""
   },
   "dependencies": {
+    "@iconify-json/heroicons": "^1.2.1",
     "concurrently": "^9.0.1",
     "unocss": "^0.63.3"
   }

@@ -21,8 +21,8 @@
     }
 
     ◊div[#:class "mx-auto"]{
-      ◊a[#:href "#meetup" #:class "mb-4 flex flex-col gap-2 items-center hover:text-engineering-light focus-visible:text-engineering-light duration-300"]{
-        ◊span[#:class "text-xl text-engineering-light font-mono tracking-tighter leading-snug"]{Interested?}
+      ◊a[#:href "#projekt" #:class "mb-4 flex flex-col gap-2 items-center hover:text-engineering-light focus-visible:text-engineering-light duration-300"]{
+        ◊span[#:class "text-xl text-engineering-light font-mono tracking-tighter leading-snug"]{Klingt gut?}
         ◊svg[#:xmlns "http://www.w3.org/2000/svg" #:fill "none" #:viewBox "0 0 24 24" #:stroke-width "1" #:stroke "currentColor" #:class "size-16"]{
           ◊path[#:stroke-linecap "round" #:stroke-linejoin "round" #:d "m19.5 8.25-7.5 7.5-7.5-7.5"]
         }
@@ -31,22 +31,24 @@
   }
 }
 ◊div[#:class "bg-white"]{
-  ◊div[#:id "meetup" #:class "min-h-[94vh] text-zinc-700 mx-auto h-full max-w-screen-md px-6 pt-12 md:px-12 md:pt-20 lg:px-24"]{
+  ◊div[#:id "projekt" #:class "min-h-[94vh] text-zinc-700 mx-auto h-full max-w-screen-md px-6 pt-12 md:px-12 md:pt-20 lg:px-24"]{
     ◊heading["About"]
     ◊par{Hi 👋}
     ◊par{
-      We're ◊link["https://www.linkedin.com/in/dirk-hüsken-414b8b101"]{Dirk}, ◊link["https://www.linkedin.com/in/thomas-graf-253629ba"]{Thomas}, ◊link["https://binderdavid.github.io"]{David} and ◊link["https://me.beathagenlocher.com"]{Beat} and we thought it would be nice if the wonderful city of Tübingen had a functional programming meetup (again!).
+      Wir sind Bürger:innen Tübingens.
+     }
+    ◊par{
+      Wir haben Ahnung von Dingen, die in Tübigen passieren. Wir interessieren uns für Dinge, die in Tübingen passieren. Und wir haben Ideen dafür, wie und welche Dingen in Tübingen passieren sollten.
     }
     ◊par{
-      We want to create a space where people interested in functional programming can meet and learn from each other. To achieve this, we will start off with talks, followed by food and an open exchange between the participants.
-    } 
-    ◊par{
-      Looking forward to see you at the next edition of ◊link["https://www.meetup.com/tu-lambda/"]{Tü.λ—Functional Programming Night Tübingen}!
+      Und das Gute an Tübingen ist: Die Stadt will das auch.
     }
-    ◊meetups{
-      ◊meetup[#:title "15.01.25"]{
+    ◊par{
+      Hier auf dieser Seite sammeln wir alle Projekte, bei denen die Stadt sich Input von uns wünscht – und alle Orte, an denen wir der Stadt Anregungen geben können.
+    }
+    ◊projekte{
+      ◊projekt[#:title "Neckarthon Tübingen"]{
         ◊par{
-          The next meetup will take place on the 15.01.25 at the ◊link["https://itdesign.de/"]{itdesign office}, Friedrichstraße 12.
         }
         ◊div[#:class "mx-2 my-4 sm:text-lg leading-relaxed"]{
           ◊orga{18:45 Doors open & Welcome}
@@ -61,9 +63,9 @@
           ◊orga{22.00 End}
         }
       }
-      ◊meetup[#:title "06.11.24"]{
+      ◊projekt[#:title "06.11.24"]{
         ◊par{
-          This meetup took place on the 06.11.24 at the ◊link["https://itdesign.de/"]{itdesign office}, Friedrichstraße 12.
+          This projekt took place on the 06.11.24 at the ◊link["https://itdesign.de/"]{itdesign office}, Friedrichstraße 12.
         }
         ◊div[#:class "mx-2 my-4 sm:text-lg leading-relaxed"]{
           ◊orga{18:45 Doors open & Welcome}
@@ -87,9 +89,9 @@
           ◊orga{22.00 End}
         }
       }
-      ◊meetup[#:title "28.08.24"]{
+      ◊projekt[#:title "28.08.24"]{
         ◊par{
-          This meetup took place on the 28.08.24 at the ◊link["https://itdesign.de/"]{itdesign office}, Friedrichstraße 12.
+          This projekt took place on the 28.08.24 at the ◊link["https://itdesign.de/"]{itdesign office}, Friedrichstraße 12.
         }
         ◊div[#:class "mx-2 my-4 sm:text-lg leading-relaxed"]{
           ◊orga{18.45 Doors open & Welcome}
@@ -109,20 +111,24 @@
     }
 
     ◊par{
-      If you want to attend the meetup, please ◊link["https://www.meetup.com/tu-lambda/"]{tell us about it} so that we can plan accordingly 😊
+      Wenn euch das Spaß gemacht hat, ◊link["https://www.projekt.com/tu-lambda/"]{teilt} es gerne! 😊
     }
         
-    ◊heading["Contact"]
+    ◊heading["Kontakt"]
     ◊div[#:class "pb-6"]{
       ◊par{
-        Do you want to keep posted about the next event or continue the discussion? Maybe you even want to contribute a talk yourself?
+        Funktioniert was nicht, wie es soll?
+        ◊br{}
+        Haben wir ein Projekt vergessen?
+        ◊br{}
+        Gibt's irgendwas, das wir anders machen könnten/sollen?
       }
-      ◊a[#:href "https://matrix.to/#/#functional-programming-night-tuebingen:matrix.org" #:class "ml-4 inline-flex gap-4 items-center hover:text-engineering focus-visible:text-engineering duration-300"]{
-        ◊svg[#:xmlns "http://www.w3.org/2000/svg" #:fill "none" #:viewBox "0 0 24 24" #:stroke-width "1" #:stroke "currentColor" #:class "size-8"]{
-            ◊path[#:stroke-linecap "round" #:stroke-linejoin "round" #:d "M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"]
+      ◊div[#:class "flex items-center gap-4 my-4 sm:text-lg leading-relaxed"]{
+        ◊span[#:class ""]{
+          Schreibt uns:
         }
-        ◊span[#:class "text-xl font-mono tracking-tighter leading-snug"]{
-          Join our Matrix Room
+        ◊a[#:href "mailto:bah@posteo.de" #:class "hover:text-engineering focus-visible:text-engineering duration-300"]{
+          ◊div[#:class "i-heroicons:envelope size-10"]{}
         }
       }
     }

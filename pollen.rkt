@@ -27,16 +27,12 @@
       (span ([class "border-solid border-b border-zinc-300 flex-1"]))))
 
 (define (abstract . body)
-  `(div ([class "abstract-wrapper relative flex flex-col overflow-hidden italic text-base md:mx-8 mt-2 mb-4"])
-        (div ([class "abstract-content line-clamp-[8] transition-all duration-300 ease-in-out mb-2"])
-             ,@body)
-        (div ([class "fade-overlay absolute bottom-6 left-0 w-full h-12 pointer-events-none bg-gradient-to-t from-white"]))
-        (button ([class ,"toggle-button inset-x-0 bottom-0 inline-flex justify-center items-center gap-2 self-center bg-white text-engineering/80 hover:text-engineering transition-all duration-200 hidden"])
-              (span ([class "button-text"]) "Show more")
-        )))
+  `(div ([class "abstract-wrapper relative flex flex-col italic text-base md:mx-8 mt-2 mb-4"])
+        (div ([class "abstract-content transition-all duration-300 ease-in-out mb-2"])
+             ,@body)))
 
 
-(define (meetup #:title title #:img [img ""] . body)
+(define (projekt #:title title #:img [img ""] . body)
   `(div ([class "overflow-hidden my-4 snap-center flex w-[90%] shrink-0 mx-8 sm:mx-16 shadow-lg rounded-lg"])
       ,(if (string=? img "")
            ""
@@ -45,10 +41,10 @@
         ,(heading title)
         ,@body)))
 
-(define (meetups . body)
+(define (projekte . body)
   `(div ([class "scroll-container mb-4 -mx-6 md:-mx-12 lg:-mx-24 md:gap-4 lg:gap-8 relative"])
     (div ([class "flex justify-between"])
-      (button ([id "meetups-scroll-left"] [class "
+      (button ([id "projekte-scroll-left"] [class "
               sticky -mr-6 sm:-mr-2 md:mr-0 left-0 top-0 transform 
         text-zinc-500 bg-white/0 h-auto 
         hover:cursor-pointer hover:scale-125 
@@ -58,10 +54,10 @@
             (path ([stroke-linecap "round"] [stroke-linejoin "round"] [d "M15.75 19.5 8.25 12l7.5-7.5"]))
         )
       )
-      (div ([id "meetups-container"] [class "relative flex items-center flex-grow snap-x overflow-x-auto"])
+      (div ([id "projekte-container"] [class "relative flex flex-row-reverse items-center flex-grow snap-x overflow-x-auto"])
         ,@body
       )
-      (button ([id "meetups-scroll-right"] [class "
+      (button ([id "projekte-scroll-right"] [class "
               sticky -ml-6 sm:-ml-2 md:ml-0 right-0 top-0 transform  
         text-zinc-500 bg-white/0 h-auto 
         hover:cursor-pointer hover:scale-125 

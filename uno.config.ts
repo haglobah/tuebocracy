@@ -1,5 +1,6 @@
 import {
   defineConfig,
+  presetIcons,
   presetWebFonts,
   presetWind,
  } from 'unocss'
@@ -9,7 +10,7 @@ export default defineConfig({
     entry: [
       {
         patterns: [ '**/*.html', '*.html'],
-        outFile: 'uno.css'
+        outFile: 'assets/uno.css'
       }
     ], // CliEntryItem | CliEntryItem[]
   },
@@ -37,6 +38,7 @@ export default defineConfig({
         },
       },
     ),
+    presetIcons(),
   ],
   // ...
 })
