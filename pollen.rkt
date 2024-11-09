@@ -50,7 +50,7 @@
     (div ([class "flex justify-between"])
       (button ([id "meetups-scroll-left"] [class "
               sticky -mr-6 sm:-mr-2 md:mr-0 left-0 top-0 transform 
-        text-zinc-500 bg-gradient-to-r from-white md:bg-white h-auto 
+        text-zinc-500 bg-white/0 h-auto 
         hover:cursor-pointer hover:scale-125 
         duration-200 ease-out transition 
         z-10"])
@@ -63,7 +63,7 @@
       )
       (button ([id "meetups-scroll-right"] [class "
               sticky -ml-6 sm:-ml-2 md:ml-0 right-0 top-0 transform  
-        text-zinc-500 bg-gradient-to-l from-white sm:bg-white h-auto 
+        text-zinc-500 bg-white/0 h-auto 
         hover:cursor-pointer hover:scale-125 
         duration-200 ease-out transition 
         z-10"]) 
