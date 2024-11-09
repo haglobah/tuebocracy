@@ -32,9 +32,9 @@
 	<meta name="description" content="◊|description|" >
 	<link rel="icon" type="image/x-icon" href="◊|icon-path|">
 
-	<link rel="stylesheet" href="preflight.css">
-	<link rel="stylesheet" href="uno.css">
-	<script src="main.js"></script>
+	<link rel="stylesheet" href="assets/preflight.css">
+	<link rel="stylesheet" href="assets/uno.css">
+	<script src="assets/main.js"></script>
   </head>
 	<body class="antialiased scroll-smooth font-sans 
   selection:bg-engineering-light selection:text-prussian">

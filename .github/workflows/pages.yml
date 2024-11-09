@@ -45,10 +45,10 @@ jobs:
             ~/.cache/racket
             ~/.local/share/racket
           key: ${{ runner.os }}-racket-current-${{ hashFiles('.racket-version') }}
-      - run: raco pkg install --auto --skip-installed pollen string-interpolation
+      - run: raco pkg install --auto --skip-installed pollen
       - run: mkdir output
       - run: raco pollen render
-      - run: cp -r assets *.html *.css *.js output
+      - run: cp -r assets *.html output
       - name: Setup Pages
         uses: actions/configure-pages@v2
       - name: Upload artifact
