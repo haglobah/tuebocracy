@@ -37,7 +37,7 @@
       ,(if (string=? img "")
            ""
            `(img ([class "w-full"] [src ,img])))
-      (div ([class "px-6 py-4"])
+      (div ([class "py-4 grow w-full"])
         ,(heading title)
         ,@body)))
 
