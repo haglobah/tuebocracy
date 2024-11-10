@@ -1,7 +1,7 @@
 #lang pollen
 
 ◊div[#:class "flex bg-prussian"]{
-  ◊div[#:class "flex flex-col justify-around mx-auto min-h-screen max-w-screen-md px-4 pt-12 md:px-8 md:pt-20 lg:px-16 text-zinc-300"]{
+  ◊div[#:class "flex flex-col justify-around mx-auto min-h-screen max-w-screen-md px-4 pt-6 md:pt-8 md:px-8 md:pt-20 lg:px-16 text-zinc-300"]{
     ◊div[#:class "my-6 mx-2 sm:mx-4 md:mx-auto"]{
       ◊h1[#:class "my-4 text-4xl text-engineering-light font-mono tracking-tighter leading-snug"]{Die Stadt macht Zeug, das keinen Sinn ergibt —}
       ◊p[#:class "sm:text-lg leading-relaxed"]{
@@ -26,7 +26,7 @@
     }
 
     ◊div[#:class "px-auto"]{
-      ◊a[#:href "#projekt-container" #:class "flex flex-col gap-2 items-center hover:text-engineering-light focus-visible:text-engineering-light duration-300"]{
+      ◊a[#:href "#projekt-container" #:class "flex flex-col my-6 gap-2 items-center hover:text-engineering-light focus-visible:text-engineering-light duration-300"]{
         ◊; ◊span[#:class "text-2xl text-engineering-light font-mono tracking-tighter leading-snug"]{Klingt gut?}
         ◊span[#:class "text-4xl font-mono tracking-tighter leading-snug"]{Mach' was dagegen!}
         ◊svg[#:xmlns "http://www.w3.org/2000/svg" #:fill "none" #:viewBox "0 0 24 24" #:stroke-width "1" #:stroke "currentColor" #:class "size-20"]{
