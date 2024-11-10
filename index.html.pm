@@ -71,13 +71,13 @@
     }
     ◊projekte{
       ◊projekt[#:title "Neckarthon Tübingen"]{
-        ◊div[#:class "polis" #:data-conversation_id "4kyrm9b7jd"]{}
+        ◊div[#:class "polis" #:data-conversation_id "2yjueme2we"]{}
         ◊script[#:async "" #:src "https://pol.is/embed.js"]{}
       }
-      ◊projekt[#:title "06.11.24"]{
-      }
-      ◊projekt[#:title "28.08.24"]{
-      }
+      ◊; ◊projekt[#:title "06.11.24"]{
+      ◊; }
+      ◊; ◊projekt[#:title "28.08.24"]{
+      ◊; }
     }
 
     ◊par{
