@@ -28,7 +28,7 @@
     ◊div[#:class "px-auto"]{
       ◊a[#:href "#projekt-container" #:class "flex flex-col gap-2 items-center hover:text-engineering-light focus-visible:text-engineering-light duration-300"]{
         ◊; ◊span[#:class "text-2xl text-engineering-light font-mono tracking-tighter leading-snug"]{Klingt gut?}
-        ◊span[#:class "text-4xl text-engineering-light font-mono tracking-tighter leading-snug"]{Mach' was dagegen!}
+        ◊span[#:class "text-4xl font-mono tracking-tighter leading-snug"]{Mach' was dagegen!}
         ◊svg[#:xmlns "http://www.w3.org/2000/svg" #:fill "none" #:viewBox "0 0 24 24" #:stroke-width "1" #:stroke "currentColor" #:class "size-20"]{
           ◊path[#:stroke-linecap "round" #:stroke-linejoin "round" #:d "m19.5 8.25-7.5 7.5-7.5-7.5"]
         }
