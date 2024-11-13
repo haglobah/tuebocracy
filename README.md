@@ -4,6 +4,10 @@ Written in [Racket](https://racket-lang.org), [Pollen](https://pollenpub.com) an
 
 # Setup
 
+There are two ways to get this repo up and running: 
+1. Using [Nix](https://nixos.org) (the recommended way for any Unix-based system, e.g. Linux, macOS, WSL)
+2. Installing everything by hand (the way to go on Windows)
+
 ## 1) Nix
 The easiest way to get started with local development is to [use Nix](https://zero-to-nix.com/start/install):
 
