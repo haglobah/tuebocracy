@@ -81,7 +81,7 @@
     }
 
     ◊par{
-      Wenn euch das Spaß gemacht hat, ◊link["https://www.projekt.com/tu-lambda/"]{teilt} es gerne! 😊
+      Wenn euch das Spaß gemacht hat, ◊link["https://haglobah.github.io/tuebocracy/"]{teilt} es gerne! 😊
     }
         
     ◊heading["Kontakt"]
