@@ -13,11 +13,11 @@ curl --proto '=https' --tlsv1.2 -sSf -L https://install.determinate.systems/nix 
 ```
 3. Enter the nix development environment (from inside the repo):
 ```bash
-cd <repo-name> && nix develop
+cd tuebocracy && nix develop
 ```
 4. Run everything: The pollen web server and the unocss watcher 
 ```bash
-pnpm dev
+npm run dev
 ```
 5. edit files, reload the browser window, see the changes
 
@@ -31,10 +31,10 @@ raco pkg install --auto --skip-installed pollen racket-langserver
 3. Download and install nodejs as described [here](https://nodejs.org/en/download/package-manager).
 4. Install the necessary node dependencies:
 ```shell
-pnpm install
+npm install
 ```
 5. Run everything: The pollen web server and the unocss watcher 
 ```bash
-pnpm dev
+npm run dev
 ```
 6. edit files, reload the browser window, see the changes
