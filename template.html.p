@@ -1,4 +1,4 @@
-◊(define title "Tübocracy – Tübiger:innen informieren Politik")
+◊(define title "Tübocracy – Tübinger:innen informieren Politik")
 ◊(define description "Was, wenn wir einfach die Weisheit von allen nehmen?")
 ◊(define image-path "")
 ◊(define url "https://haglobah.github.io/tuebocracy")
