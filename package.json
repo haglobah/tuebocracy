@@ -7,6 +7,6 @@
   "dependencies": {
     "@iconify-json/heroicons": "^1.2.1",
     "concurrently": "^9.0.1",
-    "unocss": "^0.63.3"
+    "unocss": "^66.7.5"
   }
 }
